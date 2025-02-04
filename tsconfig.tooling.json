@@ -1,6 +1,8 @@
 {
   "include": [
     "./lib/**/*.*",
+
+    "./.config/**/*.*",
     "**/eslint.config.*",
     "**/prettier.config.*",
     "**/tsup.config.*",
