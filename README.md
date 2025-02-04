@@ -22,7 +22,7 @@ You should specify TS/ESLint/Prettier in `devDependencies`!
 - **ESLint**
   - `.languageOptions.ecmaVersion` always `latest`. Use separate plugins for language feature limitations.
   - `.languageOptions.sourceType` always `module`.
-  - `<script setup lang="ts">` in mandatory for `.vue` files.
+  - `<script setup lang="ts">` is mandatory for `.vue` files.
 
 ## TODO
 
@@ -52,6 +52,7 @@ Consider explicit js exports in `package.json`
 
 ### ESLint
 
+- Integrate [`@cspell/eslint-plugin`](https://www.npmjs.com/package/@cspell/eslint-plugin)
 - Inspect [`@vue/eslint-config-typescript`](https://www.npmjs.com/package/@vue/eslint-config-typescript)
 - **`eslint-plugin-import-x`**
   - Provide configs
