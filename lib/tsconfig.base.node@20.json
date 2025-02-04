@@ -7,7 +7,7 @@
     "moduleResolution": "nodenext",
 
     "lib": ["es2023"],
-    "types": ["node.20"],
+    "types": ["node"],
 
     "resolveJsonModule": true
   }

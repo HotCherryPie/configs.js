@@ -5,11 +5,12 @@
 - **ESLint 9.19+**
 - **Prettier 3.4+**
 
-You should specify TS/ESLint/Prettier in `devDependencies`!
+You should specify all this dependencies in `devDependencies`!
 
 ```json
 {
   "devDependencies": {
+    "@types/node": "~22.13.10,
     "eslint": "~9.19.0",
     "prettier": "~3.4.0",
     "typescript": "~5.7.0"
