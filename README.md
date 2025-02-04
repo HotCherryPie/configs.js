@@ -3,6 +3,7 @@
 - **Node 22.12+**
 - **TS 5.7+**
 - **ESLint 9.19+**
+- **Prettier 3.4+**
 
 ## About
 
