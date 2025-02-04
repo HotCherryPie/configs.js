@@ -1,0 +1,53 @@
+#
+# 28.01.25 / 89.7%
+#
+# Baseline: `Array.fromAsync()`
+#  See https://caniuse.com/mdn-javascript_builtins_array_fromasync
+#
+
+        [node]
+          Node >= 22
+
+         [web]
+        Chrome >= 121
+ ChromeAndroid >= 121
+       Android >= 121
+          Edge >= 121   # chromium 121
+         Opera >= 107   # chromium 121
+   OperaMobile >= 81    # chromium 122
+       Samsung >= 25    # chromium 121
+        Safari >= 16.4
+           iOS >= 16.4
+       Firefox >= 115
+FirefoxAndroid >= 115
+
+  [isomorphic]
+          Node >= 22
+
+        Chrome >= 121
+ ChromeAndroid >= 121
+       Android >= 121
+          Edge >= 121   # chromium 121
+         Opera >= 107   # chromium 121
+   OperaMobile >= 81    # chromium 122
+       Samsung >= 25    # chromium 121
+        Safari >= 16.4
+           iOS >= 16.4
+       Firefox >= 115
+FirefoxAndroid >= 115
+
+#
+# How to check Chromium versions:
+#
+#  Samsung Internet:
+#   See https://en.wikipedia.org/wiki/Samsung_Internet#Version_history
+#
+#  Opera Desktop:
+#   See https://en.wikipedia.org/wiki/History_of_the_Opera_web_browser#Blink_versions
+#
+#  Opera Mobile:
+#   See https://forums.opera.com/user/miyukiwork/posts
+#   This user usually post release notes for Opera Mobile.
+#   You need to search for topic called something like
+#   "Opera for Android 83" and find Chromium version within it.
+#
