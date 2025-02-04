@@ -42,12 +42,5 @@
   "eslint.format.enable": true,
 
   "cSpell.language": "en,ru",
-  "cSpell.words": [
-    "browserslistrc",
-    "humanfs",
-    "quasis",
-    "sonarjs",
-    "uncategorized",
-    "vueuse"
-  ]
+  "cSpell.words": ["browserslistrc", "sonarjs", "uncategorized"]
 }
