@@ -1,0 +1,14 @@
+/* See: https://github.com/tsconfig/bases/blob/main/bases/node22.json */
+
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "compilerOptions": {
+    "module": "NodeNext",
+    "moduleResolution": "nodenext",
+
+    "lib": ["es2023"],
+    "types": ["node.22"],
+
+    "resolveJsonModule": true
+  }
+}

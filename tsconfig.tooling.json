@@ -1,0 +1,16 @@
+{
+  "include": [
+    "./lib/**/*.*",
+    "**/eslint.config.*",
+    "**/prettier.config.*",
+    "**/tsup.config.*",
+    "**/vite.config.*"
+  ],
+  "extends": ["./lib/tsconfig.base.json", "./lib/tsconfig.base.node@22.json"],
+
+  "compilerOptions": {
+    "composite": true,
+    "noEmit": true,
+    "allowJs": true
+  }
+}
