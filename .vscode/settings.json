@@ -42,5 +42,5 @@
   "eslint.format.enable": true,
 
   "cSpell.language": "en,ru",
-  "cSpell.words": ["browserslistrc", "sonarjs", "uncategorized"]
+  "cSpell.words": ["browserslistrc", "nolyfill", "sonarjs", "uncategorized"]
 }
