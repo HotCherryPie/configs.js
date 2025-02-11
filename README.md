@@ -47,7 +47,7 @@ Consider explicit js exports in `package.json`
 
 ### TSConfig
 
-- Update `moduleResolution` fields after `ts@5.8` release.
+- Update `moduleResolution` & `module` fields after `ts@5.8` release.
   - Consider update of `module` along side with `moduleResolution`.
   - Current reason for `moduleResolution:NodeNext` is [this](https://devblogs.microsoft.com/typescript/announcing-typescript-5-7/#validated-json-imports-in---module-nodenext).
 
