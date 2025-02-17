@@ -286,6 +286,5 @@ opinionatedRules.pluginImport = {
   // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-named-default.md
   'import/no-named-as-default': 'warn',
   'import/no-named-as-default-member': 'warn',
-  'import/no-rename-default': 'warn',
   'import/no-duplicates': 'warn',
 };
