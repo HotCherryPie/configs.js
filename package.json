@@ -23,9 +23,12 @@
     "eslint:inspect": "eslint --inspect-config"
   },
   "dependencies": {},
+  "devDependencies": {
+    "@types/node": "~22.13.4"
+  },
   "peerDependencies": {
     "@eslint/js": "~9.20.0",
-    "@types/node": "~22.13.4",
+    "@types/node": ">= 22.0.0",
     "eslint": "~9.20.1",
     "eslint-config-prettier": "~10.0.1",
     "eslint-plugin-import-x": "~4.6.1",
