@@ -2,7 +2,7 @@ import { configCompatPrettier } from './lib/eslint/config.compat.prettier.js';
 import { js } from './lib/eslint/lang.js.js';
 import { ts } from './lib/eslint/lang.ts.js';
 import { vue } from './lib/eslint/lang.vue.js';
-import { pluginImportX } from './lib/eslint/plugin.import-x.js';
+import { pluginImport } from './lib/eslint/plugin.import.js';
 import { pluginJs } from './lib/eslint/plugin.js.js';
 import { pluginN } from './lib/eslint/plugin.n.js';
 import { pluginSonar } from './lib/eslint/plugin.sonar.js';
@@ -38,7 +38,7 @@ export const base = (runtimeScopes, extraConfig = []) => [
       [pluginVue.name]: pluginVue.plugin,
       [pluginSonar.name]: pluginSonar.plugin,
       [pluginUnicorn.name]: pluginUnicorn.plugin,
-      [pluginImportX.name]: pluginImportX.plugin,
+      [pluginImport.name]: pluginImport.plugin,
       [pluginN.name]: pluginN.plugin,
     },
   },
@@ -56,7 +56,7 @@ export const base = (runtimeScopes, extraConfig = []) => [
       ...pluginUnicorn.rules.recommended,
       ...opinionatedRules.pluginSonar,
       ...opinionatedRules.pluginUnicorn,
-      ...opinionatedRules.pluginImportX,
+      ...opinionatedRules.pluginImport,
     },
   },
 
@@ -72,7 +72,7 @@ export const base = (runtimeScopes, extraConfig = []) => [
       ...opinionatedRules.pluginTs,
       ...opinionatedRules.pluginSonar,
       ...opinionatedRules.pluginUnicorn,
-      ...opinionatedRules.pluginImportX,
+      ...opinionatedRules.pluginImport,
     },
   },
 
@@ -90,7 +90,7 @@ export const base = (runtimeScopes, extraConfig = []) => [
       ...opinionatedRules.pluginVue,
       ...opinionatedRules.pluginSonar,
       ...opinionatedRules.pluginUnicorn,
-      ...opinionatedRules.pluginImportX,
+      ...opinionatedRules.pluginImport,
     },
   },
 
@@ -122,8 +122,6 @@ export const base = (runtimeScopes, extraConfig = []) => [
       ],
     },
   }),
-
-  runtimeBrowser(''),
 
   ...extraConfig,
 
@@ -268,8 +266,8 @@ opinionatedRules.pluginVue = {
   'vue/valid-define-options': 'error',
 };
 
-opinionatedRules.pluginImportX = {
-  'import-x/order': [
+opinionatedRules.pluginImport = {
+  'import/order': [
     'error',
     {
       distinctGroup: true,
@@ -278,4 +276,16 @@ opinionatedRules.pluginImportX = {
       alphabetize: { order: 'asc', caseInsensitive: true },
     },
   ],
+
+  'import/no-unresolved': 'error',
+  'import/namespace': 'error',
+  'import/default': 'error',
+  'import/export': 'error',
+  'import/no-default-export': 'error',
+
+  // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-named-default.md
+  'import/no-named-as-default': 'warn',
+  'import/no-named-as-default-member': 'warn',
+  'import/no-rename-default': 'warn',
+  'import/no-duplicates': 'warn',
 };

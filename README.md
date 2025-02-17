@@ -2,17 +2,17 @@
 
 - **Node 22.12+**
 - **TS 5.7+**
-- **ESLint 9.19+**
-- **Prettier 3.4+**
+- **ESLint 9.20+**
+- **Prettier 3.5+**
 
 You should specify all this dependencies in `devDependencies`!
 
 ```json
 {
   "devDependencies": {
-    "@types/node": "~22.13.10",
-    "eslint": "~9.19.0",
-    "prettier": "~3.4.0",
+    "@types/node": "~22.13.0",
+    "eslint": "~9.20.0",
+    "prettier": "~3.5.0",
     "typescript": "~5.7.0"
   }
 }
@@ -61,10 +61,7 @@ Consider explicit js exports in `package.json`
 
 * Inspect [`@vue/eslint-config-typescript`](https://www.npmjs.com/package/@vue/eslint-config-typescript)
 * **`eslint-plugin-import-x`**
-  - Provide configs
-  - Consider `import/no-cycle`
-  - Consider `import-x/no-default-export`
-    - Conflicts with many tooling configs
+  - Consider [`import/no-cycle`](https://github.com/un-ts/eslint-plugin-import-x/blob/master/docs/rules/no-cycle.md)
 * ? Specify `sourceType` & `ecmaVersion` only once in core config at the top.
 * Enable & configure [`unicorn/expiring-todo-comments`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/expiring-todo-comments.md)
 
