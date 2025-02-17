@@ -281,14 +281,14 @@ opinionatedRules.pluginImport = {
   // Make sens only for js
   // 'import/no-unresolved': 'error',
   // 'import/named: 'error'
+  // 'import/namespace': 'error',
+  // 'import/default': 'error',
 
-  'import/namespace': 'error',
-  'import/default': 'error',
   'import/export': 'error',
-  'import/no-default-export': 'error',
 
   // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-named-default.md
   'import/no-named-as-default': 'warn',
   'import/no-named-as-default-member': 'warn',
   'import/no-duplicates': 'warn',
+  'import/no-default-export': 'error',
 };
