@@ -147,6 +147,7 @@ opinionatedRules.pluginUnicorn = {
         Props: true,
         prop: true,
         Prop: true,
+        utils: true,
       },
     },
   ],
