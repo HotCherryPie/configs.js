@@ -53,15 +53,20 @@ Consider explicit js exports in `package.json`
 
 ### ESLint
 
-- Integrate [`@cspell/eslint-plugin`](https://www.npmjs.com/package/@cspell/eslint-plugin)
-- Inspect [`@vue/eslint-config-typescript`](https://www.npmjs.com/package/@vue/eslint-config-typescript)
-- **`eslint-plugin-import-x`**
+- [`@cspell/eslint-plugin`](https://www.npmjs.com/package/@cspell/eslint-plugin)
+- [`eslint-plugin-de-morgan`](https://www.npmjs.com/package/eslint-plugin-de-morgan)
+- [`eslint-plugin-promise`](https://www.npmjs.com/package/eslint-plugin-promise)
+- [`eslint-plugin-risxss`](https://www.npmjs.com/package/eslint-plugin-risxss)
+- [`eslint-plugin-security`](https://www.npmjs.com/package/eslint-plugin-security)
+
+* Inspect [`@vue/eslint-config-typescript`](https://www.npmjs.com/package/@vue/eslint-config-typescript)
+* **`eslint-plugin-import-x`**
   - Provide configs
   - Consider `import/no-cycle`
   - Consider `import-x/no-default-export`
     - Conflicts with many tooling configs
-- ? Specify `sourceType` & `ecmaVersion` only once in core config at the top.
-- Enable & configure [`unicorn/expiring-todo-comments`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/expiring-todo-comments.md)
+* ? Specify `sourceType` & `ecmaVersion` only once in core config at the top.
+* Enable & configure [`unicorn/expiring-todo-comments`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/expiring-todo-comments.md)
 
 ## Info
 

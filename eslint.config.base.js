@@ -9,14 +9,19 @@ import { pluginSonar } from './lib/eslint/plugin.sonar.js';
 import { pluginTs } from './lib/eslint/plugin.ts.js';
 import { pluginUnicorn } from './lib/eslint/plugin.unicorn.js';
 import { pluginVue } from './lib/eslint/plugin.vue.js';
+import { runtimeBrowser } from './lib/eslint/runtime.browser.js';
+import { runtimeNode } from './lib/eslint/runtime.node.js';
+import { runtimeWorker } from './lib/eslint/runtime.worker.js';
+import rootPackageJson from './package.json' with { type: 'json' };
 
 const opinionatedRules = {};
 
 /**
+ * @param {{ node?: string[], browser?: string[], worker?: string[] } | undefined} runtimeScopes
  * @param {import('eslint').Linter.Config[]} extraConfig
  * @returns {import('eslint').Linter.Config[]}
  */
-export const base = (extraConfig = []) => [
+export const base = (runtimeScopes, extraConfig = []) => [
   {
     name: 'base/common',
     linterOptions: {
@@ -105,6 +110,21 @@ export const base = (extraConfig = []) => [
     },
   },
 
+  runtimeBrowser('base/runtime:browser', runtimeScopes.browser),
+  runtimeWorker('base/runtime:worker', runtimeScopes.worker),
+  runtimeNode('base/runtime:node', runtimeScopes.node, {
+    rules: {
+      ...pluginN.rules.recommended,
+
+      'n/no-extraneous-import': [
+        'error',
+        { allowModules: Object.keys(rootPackageJson.devDependencies ?? {}) },
+      ],
+    },
+  }),
+
+  runtimeBrowser(''),
+
   ...extraConfig,
 
   {
@@ -138,6 +158,7 @@ opinionatedRules.pluginTs = {
   /* Enables of uncategorized rules */
   'ts/consistent-type-exports': 'error',
   'ts/consistent-type-imports': 'error',
+  'ts/method-signature-style': ['error', 'property'],
   'ts/no-import-type-side-effects': 'error',
   'ts/no-unsafe-type-assertion': 'error',
   'ts/no-useless-empty-export': 'error',
