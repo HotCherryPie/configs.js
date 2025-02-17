@@ -4,8 +4,6 @@
     "module": "NodeNext",
     "moduleResolution": "bundler",
     "allowImportingTsExtensions": true,
-    "resolveJsonModule": true,
-
-    "types": []
+    "resolveJsonModule": true
   }
 }
