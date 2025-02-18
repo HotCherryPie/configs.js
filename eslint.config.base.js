@@ -156,6 +156,7 @@ opinionatedRules.pluginUnicorn = {
 opinionatedRules.pluginTs = {
   /* Updates of rules form predefined configs */
   'ts/no-confusing-void-expression': ['error', { ignoreVoidOperator: true }],
+  'ts/no-meaningless-void-operator': 'off', // Complements `ts/no-confusing-void-expression`
 
   /* Enables of uncategorized rules */
   'ts/consistent-type-exports': 'error',
