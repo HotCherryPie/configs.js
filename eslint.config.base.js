@@ -134,7 +134,10 @@ export const base = (runtimeScopes, extraConfig = []) => [
   ...configCompatPrettier(),
 ];
 
-opinionatedRules.pluginSonar = {};
+opinionatedRules.pluginSonar = {
+  /* Updates of rules form predefined configs */
+  'sonar/void-use': 'off', // Complements `ts/no-confusing-void-expression`
+};
 
 opinionatedRules.pluginUnicorn = {
   /* Updates of rules form predefined configs */
