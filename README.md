@@ -10,8 +10,8 @@ You should specify all this dependencies in `devDependencies`!
 ```json
 {
   "devDependencies": {
-    "@types/node": "~22.13.0",
-    "eslint": "~9.20.0",
+    "@types/node": "~22.0.0",
+    "eslint": "~9.21.0",
     "prettier": "~3.5.0",
     "typescript": "~5.7.0"
   }
