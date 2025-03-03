@@ -1,20 +1,16 @@
 ## Requirements
 
-- **Node 22.12+**
-- **TS 5.7+**
-- **ESLint 9.20+**
+- **Node 22+**
+- **TS 5.7**
+- **ESLint 9.21+**
 - **Prettier 3.5+**
 
-You should specify all this dependencies in `devDependencies`!
-
-```json
+```jsonc
 {
   "devDependencies": {
+    // You should specify your used Node version!
     "@types/node": "~22.0.0",
-    "eslint": "~9.21.0",
-    "prettier": "~3.5.0",
-    "typescript": "~5.7.0"
-  }
+  },
 }
 ```
 
