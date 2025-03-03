@@ -14,6 +14,11 @@
 }
 ```
 
+> **Note**
+>
+> If installed vie file protocol, you should install dependencies with `--install-links` flag.
+> Example: `npm i --install-links`
+
 ## About
 
 - **ESLint**
