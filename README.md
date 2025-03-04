@@ -62,6 +62,7 @@ Consider explicit js exports in `package.json`
 
 * Inspect [`@vue/eslint-config-typescript`](https://www.npmjs.com/package/@vue/eslint-config-typescript)
 * **`eslint-plugin-import-x`**
+  - Add `import/no-extraneous-dependencies`
   - Consider specifying of [new resolver](https://github.com/un-ts/eslint-plugin-import-x/releases/tag/v4.6.0)
   - Consider [`import/no-cycle`](https://github.com/un-ts/eslint-plugin-import-x/blob/master/docs/rules/no-cycle.md)
 * ? Specify `sourceType` & `ecmaVersion` only once in core config at the top.

@@ -8,18 +8,4 @@ const toolingFiles = [
   'prettier.config.*',
 ];
 
-export default base(
-  {
-    node: toolingFiles,
-  },
-  [
-    {
-      name: 'root/tooling',
-      files: toolingFiles,
-      rules: {
-        'import/no-default-export': 'off',
-        'n/no-unpublished-import': 'off',
-      },
-    },
-  ],
-);
+export default base({ tooling: toolingFiles });
