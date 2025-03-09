@@ -28,6 +28,7 @@
 
 ## TODO
 
+- Remove `@types/node` from `peerDependencies`?
 - ? Make plugin dependencies optional.
   - For publishing specify all plugin dependencies as `peerDependencies`
   - `plugin.vue.js` uses ts parser.
