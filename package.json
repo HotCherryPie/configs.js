@@ -24,23 +24,22 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "@types/node": "~22.13.4"
+    "@types/node": "~22.13.10"
   },
   "peerDependencies": {
-    "@eslint/js": "~9.21.0",
-    "@types/node": ">=22.0.0",
-    "eslint": "~9.21.0",
-    "eslint-config-prettier": "~10.0.2",
+    "@eslint/js": "~9.22.0",
+    "eslint": "~9.22.0",
+    "eslint-config-prettier": "~10.1.1",
     "eslint-plugin-import-x": "~4.6.1",
-    "eslint-plugin-n": "~17.16.1",
+    "eslint-plugin-n": "~17.16.2",
     "eslint-plugin-sonarjs": "~3.0.2",
     "eslint-plugin-unicorn": "~57.0.0",
-    "eslint-plugin-vue": "~9.32.0",
+    "eslint-plugin-vue": "~10.0.0",
     "globals": "~16.0.0",
     "prettier": "~3.5.3",
     "typescript": "~5.7.3",
     "typescript-eslint": "~8.26.0",
-    "vue-eslint-parser": "~9.4.3"
+    "vue-eslint-parser": "~10.1.1"
   },
   "overrides": {
     "array-includes": "npm:@nolyfill/array-includes@^1",

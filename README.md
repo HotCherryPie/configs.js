@@ -2,17 +2,8 @@
 
 - **Node 22+**
 - **TS 5.7**
-- **ESLint 9.21+**
+- **ESLint 9.22+**
 - **Prettier 3.5+**
-
-```jsonc
-{
-  "devDependencies": {
-    // You should specify your used Node version!
-    "@types/node": "~22.0.0",
-  },
-}
-```
 
 > **Note**
 >
@@ -65,6 +56,7 @@ Consider explicit js exports in `package.json`
 * **`eslint-plugin-import-x`**
   - Add `import/no-extraneous-dependencies`
   - Consider specifying of [new resolver](https://github.com/un-ts/eslint-plugin-import-x/releases/tag/v4.6.0)
+  - Consider [`@helljs/eslint-import-resolver-x`](https://www.npmjs.com/package/@helljs/eslint-import-resolver-x)
   - Consider [`import/no-cycle`](https://github.com/un-ts/eslint-plugin-import-x/blob/master/docs/rules/no-cycle.md)
 * ? Specify `sourceType` & `ecmaVersion` only once in core config at the top.
 * Enable & configure [`unicorn/expiring-todo-comments`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/expiring-todo-comments.md)
