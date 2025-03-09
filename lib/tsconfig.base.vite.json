@@ -3,9 +3,8 @@
   "compilerOptions": {
     "module": "ESNext",
     "moduleResolution": "bundler",
-    "resolveJsonModule": true
-
-    // Allowed but not needed.
-    // "allowImportingTsExtensions": true,
+    "resolveJsonModule": true,
+    "allowArbitraryExtensions": true
+    // "allowImportingTsExtensions": true, Allowed but not needed.
   }
 }
