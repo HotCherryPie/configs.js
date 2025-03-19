@@ -40,6 +40,7 @@
 
   "eslint.enable": true,
   "eslint.format.enable": true,
+  "eslint.runtime": "node",
 
   "cSpell.language": "en,ru",
   "cSpell.words": ["browserslistrc", "nolyfill", "sonarjs", "uncategorized"]
