@@ -52,6 +52,7 @@ Consider explicit js exports in `package.json`
 - [`eslint-plugin-risxss`](https://www.npmjs.com/package/eslint-plugin-risxss)
 - [`eslint-plugin-security`](https://www.npmjs.com/package/eslint-plugin-security)
 
+* Replace `ts/no-namespace` with [`eslint-plugin-erasable-syntax-only`](https://www.npmjs.com/package/eslint-plugin-erasable-syntax-only)
 * Inspect [`@vue/eslint-config-typescript`](https://www.npmjs.com/package/@vue/eslint-config-typescript)
 * **`eslint-plugin-import-x`**
   - Add `import/no-extraneous-dependencies`
