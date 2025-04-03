@@ -60,6 +60,7 @@ Consider explicit js exports in `package.json`
   - Consider [`import/no-cycle`](https://github.com/un-ts/eslint-plugin-import-x/blob/master/docs/rules/no-cycle.md)
 * ? Specify `sourceType` & `ecmaVersion` only once in core config at the top.
 * Enable & configure [`unicorn/expiring-todo-comments`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/expiring-todo-comments.md)
+* Research a way to force component props to always be wrapped in `ReadonlyDeep`
 
 ## Info
 
