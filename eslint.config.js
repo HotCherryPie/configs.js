@@ -1,11 +1,12 @@
 import { base } from './eslint.config.base.js';
 
 const toolingFiles = [
-  'lib/**',
   '**/eslint.config.*',
   '**/tsup.config.*',
   '**/vite.config.*',
-  'prettier.config.*',
+
+  './lib/**',
+  './prettier.config.*',
 ];
 
 export default base({ tooling: toolingFiles });
