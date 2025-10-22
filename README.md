@@ -19,6 +19,7 @@
 
 ## TODO
 
+- [Use OXC version of prettier](https://prettier.io/blog/2025/06/23/3.6.0#javascript)
 - Remove `@types/node` from `peerDependencies`?
 - ? Make plugin dependencies optional.
   - For publishing specify all plugin dependencies as `peerDependencies`
