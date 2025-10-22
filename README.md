@@ -24,6 +24,8 @@
 - ? Make plugin dependencies optional.
   - For publishing specify all plugin dependencies as `peerDependencies`
   - `plugin.vue.js` uses ts parser.
+- Consider [`preserve-caught-error`](https://eslint.org/docs/latest/rules/preserve-caught-error)
+- Consider [ESlint Multithread Linting](https://eslint.org/blog/2025/08/multithread-linting/)
 
 Consider explicit js exports in `package.json`
 
