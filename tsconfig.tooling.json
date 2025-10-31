@@ -11,6 +11,9 @@
   "extends": ["./lib/tsconfig.base.json", "./lib/tsconfig.base.node@22.json"],
 
   "compilerOptions": {
+    // Without this `*.tsbuildinfo` file will be created on project root.
+    "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.tooling.tsbuildinfo",
+
     "composite": true,
     "noEmit": true,
     "allowJs": true

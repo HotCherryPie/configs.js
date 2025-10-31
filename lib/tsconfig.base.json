@@ -1,8 +1,5 @@
 {
   "compilerOptions": {
-    // Without this `*.tsbuildinfo` file will be created on project root.
-    "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.app.tsbuildinfo",
-
     "types": [],
     "isolatedModules": true,
     "moduleDetection": "force",
