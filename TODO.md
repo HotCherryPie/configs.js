@@ -36,6 +36,8 @@ Consider explicit js exports in `package.json`
 - [`eslint-plugin-risxss`](https://www.npmjs.com/package/eslint-plugin-risxss)
 - [`eslint-plugin-security`](https://www.npmjs.com/package/eslint-plugin-security)
 
+* **`eslint-plugin-sonarjs`**
+  - Consider dropping of `sonar/redundant-type-aliases`
 * **`eslint-plugin-ts`**
   - Disable `ts/no-namespace` after enabling `erasableSyntaxOnly`
 * **`eslint-plugin-vue`**
