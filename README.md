@@ -55,6 +55,8 @@ Consider explicit js exports in `package.json`
 - [`eslint-plugin-risxss`](https://www.npmjs.com/package/eslint-plugin-risxss)
 - [`eslint-plugin-security`](https://www.npmjs.com/package/eslint-plugin-security)
 
+* **`eslint-plugin-ts`**
+  - Disable `ts/no-namespace` after enabling `erasableSyntaxOnly`
 * **`eslint-plugin-vue`**
   - Change default severity of `recommended` & `strongly-recommended` rulesets to `error`. It's just warnings right now
 * **`eslint-plugin-import-x`**
