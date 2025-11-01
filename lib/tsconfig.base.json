@@ -4,6 +4,7 @@
     "isolatedModules": true,
     "moduleDetection": "force",
     "noUncheckedSideEffectImports": true,
+    "erasableSyntaxOnly": true,
 
     /* Type Checking */
     "allowUnreachableCode": false,

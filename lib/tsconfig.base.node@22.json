@@ -3,15 +3,14 @@
 {
   "$schema": "https://json.schemastore.org/tsconfig",
   "compilerOptions": {
-    "module": "NodeNext",
+    // See: https://github.com/microsoft/TypeScript/pull/60761
+    "module": "nodenext",
     "moduleResolution": "nodenext",
 
     // Should be es2022, but in fact have many backported features,
     //  like iterator helpers
     // https://github.com/tsconfig/bases/pull/299
-    "lib": ["es2023", "ESNext.Array", "ESNext.Collection", "ESNext.Iterator"],
-    "types": ["node"],
-
-    "resolveJsonModule": true
+    "lib": ["es2024", "ESNext.Array", "ESNext.Collection", "ESNext.Iterator"],
+    "types": ["node"]
   }
 }

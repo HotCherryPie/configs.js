@@ -22,12 +22,6 @@ Consider explicit js exports in `package.json`
 }
 ```
 
-### TSConfig
-
-- Update `moduleResolution` & `module` fields after `ts@5.8` release.
-  - Consider update of `module` along side with `moduleResolution`.
-  - Current reason for `moduleResolution:NodeNext` is [this](https://devblogs.microsoft.com/typescript/announcing-typescript-5-7/#validated-json-imports-in---module-nodenext).
-
 ### ESLint
 
 - [`@cspell/eslint-plugin`](https://www.npmjs.com/package/@cspell/eslint-plugin)
@@ -38,8 +32,6 @@ Consider explicit js exports in `package.json`
 
 * **`eslint-plugin-sonarjs`**
   - Consider dropping of `sonar/redundant-type-aliases`
-* **`eslint-plugin-ts`**
-  - Disable `ts/no-namespace` after enabling `erasableSyntaxOnly`
 * **`eslint-plugin-vue`**
   - Change default severity of `recommended` & `strongly-recommended` rulesets to `error`. It's just warnings right now
 * **`eslint-plugin-import-x`**
@@ -47,7 +39,6 @@ Consider explicit js exports in `package.json`
   - Consider specifying of [new resolver](https://github.com/un-ts/eslint-plugin-import-x/releases/tag/v4.6.0)
   - Consider [`@helljs/eslint-import-resolver-x`](https://www.npmjs.com/package/@helljs/eslint-import-resolver-x)
   - Consider [`import/no-cycle`](https://github.com/un-ts/eslint-plugin-import-x/blob/master/docs/rules/no-cycle.md)
-* Replace `ts/no-namespace` with [`eslint-plugin-erasable-syntax-only`](https://www.npmjs.com/package/eslint-plugin-erasable-syntax-only)
 * Inspect [`@vue/eslint-config-typescript`](https://www.npmjs.com/package/@vue/eslint-config-typescript)
 * ? Specify `sourceType` & `ecmaVersion` only once in core config at the top.
 * Enable & configure [`unicorn/expiring-todo-comments`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/expiring-todo-comments.md)

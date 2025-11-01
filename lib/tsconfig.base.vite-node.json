@@ -4,14 +4,13 @@
     "module": "NodeNext",
     "moduleResolution": "bundler",
 
-    "resolveJsonModule": true,
     "allowArbitraryExtensions": true,
 
     // By default this is set to `true` because of `moduleResolution:bundler`.
     //  This is not exactly incorrect, but we disable it in favor of explicitness.
     "allowSyntheticDefaultImports": false,
 
-    // Allowed but not needed.
+    // Allowed but not needed. Disabled for consistency.
     "allowImportingTsExtensions": false
   }
 }

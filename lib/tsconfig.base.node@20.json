@@ -3,12 +3,11 @@
 {
   "$schema": "https://json.schemastore.org/tsconfig",
   "compilerOptions": {
-    "module": "NodeNext",
-    "moduleResolution": "nodenext",
+    // See: https://github.com/microsoft/TypeScript/pull/60761
+    "module": "es2020",
+    "moduleResolution": "node16",
 
     "lib": ["es2023"],
-    "types": ["node"],
-
-    "resolveJsonModule": true
+    "types": ["node"]
   }
 }
