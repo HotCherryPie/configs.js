@@ -1,8 +1,9 @@
-/* See: https://github.com/vitejs/vite/blob/main/packages/create-vite/template-vanilla-ts/tsconfig.json */
-/* See: https://github.com/vitejs/vite/blob/main/packages/create-vite/template-vue-ts/tsconfig.app.json */
-/* See: https://github.com/vuejs/tsconfig/blob/main/tsconfig.json */
-/* See: https://github.com/vuejs/tsconfig/blob/main/tsconfig.dom.json */
-/* See: https://github.com/vuejs/tsconfig/blob/main/tsconfig.lib.json */
+/* References:
+ *  - https://github.com/vitejs/vite/blob/main/packages/create-vite/template-vanilla-ts
+ *  - https://github.com/vitejs/vite/blob/main/packages/create-vite/template-vue-ts
+ *  - https://github.com/vuejs/tsconfig/blob/main
+ *  - https://github.com/vuejs/create-vue/tree/main/template/tsconfig/base
+ */
 
 {
   "$schema": "https://json.schemastore.org/tsconfig",

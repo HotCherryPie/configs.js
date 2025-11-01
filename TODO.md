@@ -39,7 +39,7 @@ Consider explicit js exports in `package.json`
   - Consider specifying of [new resolver](https://github.com/un-ts/eslint-plugin-import-x/releases/tag/v4.6.0)
   - Consider [`@helljs/eslint-import-resolver-x`](https://www.npmjs.com/package/@helljs/eslint-import-resolver-x)
   - Consider [`import/no-cycle`](https://github.com/un-ts/eslint-plugin-import-x/blob/master/docs/rules/no-cycle.md)
-* Inspect [`@vue/eslint-config-typescript`](https://www.npmjs.com/package/@vue/eslint-config-typescript)
-* ? Specify `sourceType` & `ecmaVersion` only once in core config at the top.
-* Enable & configure [`unicorn/expiring-todo-comments`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/expiring-todo-comments.md)
-* Research a way to force component props to always be wrapped in `ReadonlyDeep`
+
+- Inspect [`@vue/eslint-config-typescript`](https://www.npmjs.com/package/@vue/eslint-config-typescript)
+- ? Specify `sourceType` & `ecmaVersion` only once in core config at the top.
+- Research a way to force component props to always be wrapped in `ReadonlyDeep`
