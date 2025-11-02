@@ -7,8 +7,7 @@
   - `plugin.vue.js` uses ts parser.
 - Consider [`preserve-caught-error`](https://eslint.org/docs/latest/rules/preserve-caught-error)
 - Consider [ESlint Multithread Linting](https://eslint.org/blog/2025/08/multithread-linting/)
-
-Consider explicit js exports in `package.json`
+- Consider explicit js exports in `package.json`
 
 ```jsonc
 {
@@ -35,7 +34,7 @@ Consider explicit js exports in `package.json`
 * **`eslint-plugin-vue`**
   - Change default severity of `recommended` & `strongly-recommended` rulesets to `error`. It's just warnings right now
 * **`eslint-plugin-import-x`**
-  - Add `import/no-extraneous-dependencies`
+  - Add `import/no-extraneous-dependencies`?
   - Consider specifying of [new resolver](https://github.com/un-ts/eslint-plugin-import-x/releases/tag/v4.6.0)
   - Consider [`@helljs/eslint-import-resolver-x`](https://www.npmjs.com/package/@helljs/eslint-import-resolver-x)
   - Consider [`import/no-cycle`](https://github.com/un-ts/eslint-plugin-import-x/blob/master/docs/rules/no-cycle.md)

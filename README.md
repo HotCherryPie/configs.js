@@ -1,6 +1,10 @@
 # `configs.js`
 
-Configs for JS ecosystem
+Configs for JS ecosystem.
+
+#### References
+
+- [`sxzz/eslint-config`](https://github.com/sxzz/eslint-config)
 
 ## About
 

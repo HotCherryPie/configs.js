@@ -21,8 +21,9 @@
     "./*": "./lib/*"
   },
   "scripts": {
-    "eslint:inspect": "eslint --inspect-config",
-    "nolyfill": "npx nolyfill"
+    "@:eslint-inspect": "eslint --inspect-config",
+    "@:node-modules-inspector": "npx node-modules-inspector",
+    "@:nolyfill": "npx nolyfill"
   },
   "dependencies": {},
   "devDependencies": {
