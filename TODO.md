@@ -1,4 +1,8 @@
-## TODO
+# TODO
+
+- TS config should use vue-parser to support vue components in ts files
+
+---
 
 - [Use OXC version of prettier](https://prettier.io/blog/2025/06/23/3.6.0#javascript)
 - Remove `@types/node` from `peerDependencies`?
