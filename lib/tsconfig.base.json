@@ -1,10 +1,12 @@
 {
   "compilerOptions": {
     "types": [],
+    "erasableSyntaxOnly": true,
     "isolatedModules": true,
+    "libReplacement": false,
     "moduleDetection": "force",
     "noUncheckedSideEffectImports": true,
-    "erasableSyntaxOnly": true,
+    "verbatimModuleSyntax": true,
 
     /* Type Checking */
     "allowUnreachableCode": false,
