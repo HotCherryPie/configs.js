@@ -1,0 +1,20 @@
+/* See: https://github.com/tsconfig/bases/blob/main/bases/node24.json */
+
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "compilerOptions": {
+    // See: https://github.com/microsoft/TypeScript/pull/60761
+    "module": "nodenext",
+    "moduleResolution": "nodenext",
+
+    // https://github.com/tsconfig/bases/commit/11d2ff40e7311ce1642d41c6f7126fc12bef612a
+    "lib": [
+      "es2024",
+      "ESNext.Array",
+      "ESNext.Collection",
+      "ESNext.Iterator",
+      "ESNext.Promise"
+    ],
+    "types": ["node"]
+  }
+}

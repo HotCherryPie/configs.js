@@ -8,7 +8,7 @@
     "**/tsup.config.*",
     "**/vite.config.*"
   ],
-  "extends": ["./lib/tsconfig.base.json", "./lib/tsconfig.base.node@22.json"],
+  "extends": ["./lib/tsconfig.base.json", "./lib/tsconfig.base.node@24.json"],
 
   "compilerOptions": {
     // Without this `*.tsbuildinfo` file will be created on project root.
