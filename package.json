@@ -3,19 +3,19 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "packageManager": "npm@10.9.0",
+  "packageManager": "npm@11.6.2",
   "engines": {
-    "node": ">=22.21.0"
+    "node": ">=24.11.1"
   },
   "devEngines": {
     "runtime": {
       "name": "node",
-      "version": ">=22.21.0",
+      "version": ">=24.11.1",
       "onFail": "error"
     },
     "packageManager": {
       "name": "npm",
-      "version": ">=10.9.0",
+      "version": ">=11.6.2",
       "onFail": "error"
     }
   },
@@ -32,20 +32,19 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "@types/node": "~22.18.12"
+    "@types/node": "~24.10.1"
   },
   "peerDependencies": {
     "@eslint/js": "~9.39.1",
-    "@types/node": "~22.18.12",
     "eslint": "~9.39.1",
     "eslint-config-prettier": "~10.1.8",
     "eslint-plugin-import-x": "~4.16.1",
     "eslint-plugin-n": "~17.23.1",
     "eslint-plugin-sonarjs": "~3.0.5",
     "eslint-plugin-unicorn": "~62.0.0",
-    "eslint-plugin-vue": "~10.6.0",
+    "eslint-plugin-vue": "~10.6.2",
     "globals": "~16.5.0",
-    "prettier": "~3.6.2",
+    "prettier": "~3.7.3",
     "typescript": "~5.9.3",
     "typescript-eslint": "~8.48.0",
     "vue-eslint-parser": "~10.2.0"
