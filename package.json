@@ -31,7 +31,7 @@
     "@:nolyfill": "npx nolyfill"
   },
   "devDependencies": {
-    "@my/configs.js-public": "git+https://github.com/HotCherryPie/configs.js.git#semver:v0.0.0-alpha-10"
+    "@my/configs.js-public": "git+https://github.com/HotCherryPie/configs.js.git#semver:v0.0.0-alpha-11"
   },
   "peerDependencies": {
     "@eslint/js": "~9.39.1",
