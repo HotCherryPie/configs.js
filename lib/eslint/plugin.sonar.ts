@@ -1,6 +1,6 @@
 import sonar from 'eslint-plugin-sonarjs';
 
-import { renamePluginScope } from './utils.js';
+import { renamePluginScope } from './utils.ts';
 
 const name = 'sonar';
 

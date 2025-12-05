@@ -1,6 +1,6 @@
 import { plugin, configs } from 'typescript-eslint';
 
-import { renamePluginScope } from './utils.js';
+import { renamePluginScope } from './utils.ts';
 
 const name = 'ts';
 

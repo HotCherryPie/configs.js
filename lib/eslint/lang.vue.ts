@@ -2,7 +2,7 @@ import vuePlugin from 'eslint-plugin-vue';
 import { parser as tsParser } from 'typescript-eslint';
 import vueParser from 'vue-eslint-parser';
 
-import { mergeObjectsOrReduce } from './utils.js';
+import { mergeObjectsOrReduce } from './utils.ts';
 
 // eslint-disable-next-line unicorn/prevent-abbreviations
 const vue = (tsconfigRootDir, config = {}) => {

@@ -7,6 +7,9 @@
     "module": "nodenext",
     "moduleResolution": "nodenext",
 
+    // Since node@24+ support .ts files
+    "allowImportingTsExtensions": true,
+
     // https://github.com/tsconfig/bases/commit/11d2ff40e7311ce1642d41c6f7126fc12bef612a
     "lib": [
       "es2024",

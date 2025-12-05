@@ -1,6 +1,6 @@
 import globals from 'globals';
 
-import { isNotEmptyArray, mergeObjectsOrReduce } from './utils.js';
+import { isNotEmptyArray, mergeObjectsOrReduce } from './utils.ts';
 
 const runtimeNode = (name, files, config = {}) => {
   if (!isNotEmptyArray(files)) return {};

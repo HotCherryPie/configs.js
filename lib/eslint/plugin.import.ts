@@ -1,6 +1,6 @@
 import importX from 'eslint-plugin-import-x';
 
-import { renamePluginScope } from './utils.js';
+import { renamePluginScope } from './utils.ts';
 
 /**
  * Rules:

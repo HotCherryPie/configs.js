@@ -1,27 +1,34 @@
 /* eslint-disable unicorn/no-array-reduce */
 
-export const isObject = (it) => typeof it === 'object' && it !== null;
+import type { UnknownRecord } from 'type-fest';
+
+export const isObject = (it: unknown): it is UnknownRecord =>
+  typeof it === 'object' && it !== null && !Array.isArray(it);
 
 /**
  * Checks if value is `null` or `undefined`.
  */
 // eslint-disable-next-line unicorn/no-null
-export const isNil = (it) => it == null;
+export const isNil = (it: unknown) => it == null;
 
-export const isNotEmptyArray = (it) => {
+export const isNotEmptyArray = (it: unknown): it is [unknown, ...unknown[]] => {
   if (!Array.isArray(it)) return false;
   return it.length > 0;
 };
 
-export function renamePluginScope(rules, from, to) {
-  return Object.entries(rules).reduce((previous, [k, v]) => {
+export function renamePluginScope(
+  rules: UnknownRecord,
+  from: string,
+  to: string,
+) {
+  return Object.entries(rules).reduce<UnknownRecord>((previous, [k, v]) => {
     const name = k.replace(from, to);
     previous[name] = v;
     return previous;
   }, {});
 }
 
-export const mergeObjects = (...objects) =>
+export const mergeObjects = (...objects: UnknownRecord[]) =>
   objects.reduce((result, current) => {
     for (const key of Object.keys(current)) {
       result[key] =
@@ -33,7 +40,10 @@ export const mergeObjects = (...objects) =>
     return result;
   }, {});
 
-export function mergeObjectsOrReduce(objectA, objectBOrReducer) {
+export function mergeObjectsOrReduce(
+  objectA: UnknownRecord,
+  objectBOrReducer: UnknownRecord | ((it: UnknownRecord) => UnknownRecord),
+) {
   return typeof objectBOrReducer === 'function' ?
       objectBOrReducer(objectA)
     : mergeObjects(objectA, objectBOrReducer);

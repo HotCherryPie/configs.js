@@ -41,6 +41,9 @@
   "eslint.enable": true,
   "eslint.format.enable": true,
   "eslint.runtime": "node",
+  "eslint.options": {
+    "flags": ["unstable_native_nodejs_ts_config"]
+  },
 
   "cSpell.language": "en",
   "cSpell.words": ["browserslistrc", "nolyfill", "sonarjs", "uncategorized"]

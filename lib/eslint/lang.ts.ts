@@ -1,11 +1,12 @@
 import { parser } from 'typescript-eslint';
 
-import { mergeObjectsOrReduce } from './utils.js';
+import { mergeObjectsOrReduce } from './utils.ts';
+import type { Simplify } from 'type-fest';
+import type { Linter } from 'eslint';
 
 // eslint-disable-next-line unicorn/prevent-abbreviations
-const ts = (tsconfigRootDir, config = {}) => {
-  /** @type {import('eslint').Linter.Config} */
-  const defaultConfig = {
+const ts = (tsconfigRootDir: string, config = {}) => {
+  const defaultConfig: Simplify<Linter.Config> = {
     name: 'lang:ts',
     files: ['**/*.ts'],
     languageOptions: {

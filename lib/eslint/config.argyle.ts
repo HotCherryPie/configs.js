@@ -1,21 +1,21 @@
-import { configCompatPrettier } from './config.compat.prettier.js';
-import { js } from './lang.js.js';
-import { ts } from './lang.ts.js';
-import { vue } from './lang.vue.js';
-import { pluginImport } from './plugin.import.js';
-import { pluginJs } from './plugin.js.js';
-import { pluginNode } from './plugin.node.js';
-import { pluginSonar } from './plugin.sonar.js';
-import { pluginTs } from './plugin.ts.js';
-import { pluginUnicorn } from './plugin.unicorn.js';
-import { pluginVue } from './plugin.vue.js';
-import { runtimeBrowser } from './runtime.browser.js';
-import { runtimeNode } from './runtime.node.js';
-import { runtimeWorker } from './runtime.worker.js';
+import { configCompatPrettier } from './config.compat.prettier.ts';
+import { js } from './lang.js.ts';
+import { ts } from './lang.ts.ts';
+import { vue } from './lang.vue.ts';
+import { pluginImport } from './plugin.import.ts';
+import { pluginJs } from './plugin.js.ts';
+import { pluginNode } from './plugin.node.ts';
+import { pluginSonar } from './plugin.sonar.ts';
+import { pluginTs } from './plugin.ts.ts';
+import { pluginUnicorn } from './plugin.unicorn.ts';
+import { pluginVue } from './plugin.vue.ts';
+import { runtimeBrowser } from './runtime.browser.ts';
+import { runtimeNode } from './runtime.node.ts';
+import { runtimeWorker } from './runtime.worker.ts';
 
 const opinionatedRules = {};
 
-const name = (it) => `argyle/${it}`;
+const name = (it: string) => `argyle/${it}`;
 
 /**
  * @param {{ node?: string[], browser?: string[], worker?: string[], tooling?: string[] } | undefined} runtimeScopes

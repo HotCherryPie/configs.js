@@ -1,6 +1,6 @@
 import node from 'eslint-plugin-n';
 
-import { renamePluginScope } from './utils.js';
+import { renamePluginScope } from './utils.ts';
 
 const name = 'node';
 

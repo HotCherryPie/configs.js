@@ -1,8 +1,8 @@
 import globals from 'globals';
 
-import { isNotEmptyArray, mergeObjectsOrReduce } from './utils.js';
+import { isNotEmptyArray, mergeObjectsOrReduce } from './utils.ts';
 
-const runtimeBrowser = (name, files, config = {}) => {
+const runtimeWorker = (name, files, config = {}) => {
   if (!isNotEmptyArray(files)) return {};
 
   /** @type {import('eslint').Linter.Config} */
@@ -10,11 +10,11 @@ const runtimeBrowser = (name, files, config = {}) => {
     name,
     files,
     languageOptions: {
-      globals: globals.browser,
+      globals: globals.worker,
     },
   };
 
   return mergeObjectsOrReduce(defaultConfig, config);
 };
 
-export { runtimeBrowser };
+export { runtimeWorker };
