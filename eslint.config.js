@@ -1,12 +1,14 @@
-import { base } from './eslint.config.base.js';
+export { configArgyle } from '@my/configs.js-public/eslint/config.argyle.js';
 
 const toolingFiles = [
   '**/eslint.config.*',
+  '**/prettier.config.*',
   '**/tsup.config.*',
   '**/vite.config.*',
 
-  './lib/**',
-  './prettier.config.*',
+  '!./lib/**/*.*',
 ];
 
-export default base({ tooling: toolingFiles });
+const node = ['./lib/**'];
+
+export default configArgyle({ node, tooling: toolingFiles });

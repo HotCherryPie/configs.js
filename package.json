@@ -30,6 +30,9 @@
     "@:node-modules-inspector": "npx node-modules-inspector",
     "@:nolyfill": "npx nolyfill"
   },
+  "devDependencies": {
+    "@my/configs.js-public": "git+https://github.com/HotCherryPie/configs.js.git#semver:v0.0.0-alpha-10"
+  },
   "peerDependencies": {
     "@eslint/js": "~9.39.1",
     "@types/node": ">=24.10.1",
