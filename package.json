@@ -30,12 +30,9 @@
     "@:node-modules-inspector": "npx node-modules-inspector",
     "@:nolyfill": "npx nolyfill"
   },
-  "dependencies": {},
-  "devDependencies": {
-    "@types/node": "~24.10.1"
-  },
   "peerDependencies": {
     "@eslint/js": "~9.39.1",
+    "@types/node": ">=24.10.1",
     "eslint": "~9.39.1",
     "eslint-config-prettier": "~10.1.8",
     "eslint-plugin-import-x": "~4.16.1",
@@ -44,9 +41,9 @@
     "eslint-plugin-unicorn": "~62.0.0",
     "eslint-plugin-vue": "~10.6.2",
     "globals": "~16.5.0",
-    "prettier": "~3.7.3",
+    "prettier": "~3.7.4",
     "typescript": "~5.9.3",
-    "typescript-eslint": "~8.48.0",
+    "typescript-eslint": "~8.48.1",
     "vue-eslint-parser": "~10.2.0"
   },
   "overrides": {
