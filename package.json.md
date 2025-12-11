@@ -1,1 +1,1 @@
-- `@types/node` — placed in `peerDependencies` because since Node version is enforces by `engines`, types can be enforces according to specified Node version.
+- `@types/node` — placed in `peerDependencies` because since Node version is enforces by `engines`, types can be enforces according to specified Node version. Placed in `devDependencies` to reflect lowest permitted version.
