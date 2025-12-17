@@ -11,6 +11,9 @@
     "module": "ESNext",
     "moduleResolution": "bundler",
 
+    // All code transforms handled by Vite
+    "target": "esnext",
+
     "resolveJsonModule": true,
     "allowArbitraryExtensions": true,
 

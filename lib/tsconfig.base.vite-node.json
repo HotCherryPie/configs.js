@@ -4,6 +4,9 @@
     "module": "NodeNext",
     "moduleResolution": "bundler",
 
+    // All code transforms handled by Vite
+    "target": "esnext",
+
     "allowArbitraryExtensions": true,
 
     // By default this is set to `true` because of `moduleResolution:bundler`.
