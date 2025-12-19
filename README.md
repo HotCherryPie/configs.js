@@ -15,6 +15,10 @@ Configs for JS ecosystem.
 
 ## Info
 
+### TypeScript
+
+- [TSConfig Grimoire](https://github.com/bluwy/tsconfig-grimoire)
+
 ### ESLint
 
 - [Configuration Files](https://eslint.org/docs/latest/use/configure/configuration-files)
