@@ -31,24 +31,23 @@
     "@:nolyfill": "npx nolyfill"
   },
   "devDependencies": {
-    "@my/configs.js-public": "git+https://github.com/HotCherryPie/configs.js.git#semver:v0.0.0-alpha-12",
     "@types/node": "^24.10.1"
   },
   "peerDependencies": {
-    "@eslint/js": "~9.39.1",
+    "@eslint/js": "~9.39.3",
     "@types/node": ">=24.10.1",
-    "eslint": "~9.39.1",
+    "eslint": "~9.39.3",
     "eslint-config-prettier": "~10.1.8",
     "eslint-plugin-import-x": "~4.16.1",
-    "eslint-plugin-n": "~17.23.1",
-    "eslint-plugin-sonarjs": "~3.0.5",
-    "eslint-plugin-unicorn": "~62.0.0",
-    "eslint-plugin-vue": "~10.6.2",
-    "globals": "~16.5.0",
-    "prettier": "~3.7.4",
+    "eslint-plugin-n": "~17.24.0",
+    "eslint-plugin-sonarjs": "~4.0.0",
+    "eslint-plugin-unicorn": "~63.0.0",
+    "eslint-plugin-vue": "~10.8.0",
+    "globals": "~17.3.0",
+    "prettier": "~3.8.1",
     "typescript": "~5.9.3",
-    "typescript-eslint": "~8.49.0",
-    "vue-eslint-parser": "~10.2.0"
+    "typescript-eslint": "~8.56.0",
+    "vue-eslint-parser": "~10.4.0"
   },
   "overrides": {
     "array-includes": "npm:@nolyfill/array-includes@^1",
