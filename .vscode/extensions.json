@@ -2,7 +2,7 @@
   "recommendations": [
     "danvk.any-xray",
     "dbaeumer.vscode-eslint",
-    "prettier.prettier-vscode",
+    "esbenp.prettier-vscode",
     "Gruntfuggly.todo-tree",
     "pflannery.vscode-versionlens",
     "streetsidesoftware.code-spell-checker-russian",
