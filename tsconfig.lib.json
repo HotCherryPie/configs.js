@@ -1,8 +1,5 @@
 {
-  "extends": [
-    "@my/configs.js-public/tsconfig.base.json",
-    "@my/configs.js-public/tsconfig.base.node@24.json"
-  ],
+  "extends": ["#lib/tsconfig.base.json", "#lib/tsconfig.base.node@24.json"],
   "include": ["./lib/**/*.*"],
 
   "compilerOptions": {

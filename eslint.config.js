@@ -1,4 +1,4 @@
-export { configArgyle } from '@my/configs.js-public/eslint/config.argyle.js';
+export { configArgyle } from './lib/eslint/config.argyle.js'; // #/eslint/config.argyle.js
 
 const toolingFiles = [
   '**/eslint.config.*',

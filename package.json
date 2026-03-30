@@ -5,7 +5,7 @@
   "type": "module",
   "packageManager": "npm@11.6.2",
   "engines": {
-    "node": ">=24.11.1"
+    "node": ">=24.14.1"
   },
   "devEngines": {
     "runtime": {
@@ -22,6 +22,9 @@
   "files": [
     "lib"
   ],
+  "imports": {
+    "#lib/*": "./lib/*"
+  },
   "exports": {
     "./*": "./lib/*"
   },
@@ -31,7 +34,6 @@
     "@:nolyfill": "npx nolyfill"
   },
   "devDependencies": {
-    "@my/configs.js-public": "git+https://github.com/HotCherryPie/configs.js.git#semver:v0.0.0-alpha-14",
     "@types/node": "^24.10.1"
   },
   "peerDependencies": {
@@ -44,10 +46,10 @@
     "eslint-plugin-sonarjs": "~4.0.0",
     "eslint-plugin-unicorn": "~63.0.0",
     "eslint-plugin-vue": "~10.8.0",
-    "globals": "~17.3.0",
+    "globals": "~17.4.0",
     "prettier": "~3.8.1",
-    "typescript": "~5.9.3",
-    "typescript-eslint": "~8.56.0",
+    "typescript": "~6.0.2",
+    "typescript-eslint": "~8.58.0",
     "vue-eslint-parser": "~10.4.0"
   },
   "overrides": {

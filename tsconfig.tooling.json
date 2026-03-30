@@ -1,8 +1,5 @@
 {
-  "extends": [
-    "@my/configs.js-public/tsconfig.base.json",
-    "@my/configs.js-public/tsconfig.base.node@24.json"
-  ],
+  "extends": ["#/tsconfig.base.json", "#/tsconfig.base.node@24.json"],
   "include": [
     "./.config/**/*.*",
     "**/eslint.config.*",
