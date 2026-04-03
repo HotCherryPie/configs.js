@@ -1,6 +1,7 @@
 {
-  "extends": ["#/tsconfig.base.json", "#/tsconfig.base.node@24.json"],
+  "extends": ["#lib/tsconfig.base.json", "#lib/tsconfig.base.node@24.json"],
   "include": [
+    "./lib/**/*.*",
     "./.config/**/*.*",
     "**/eslint.config.*",
     "**/prettier.config.*",
