@@ -1,4 +1,4 @@
-import { configArgyle } from '#lib/eslint/config.argyle.js';
+import { base } from './eslint.config.base.js';
 
 const toolingFiles = [
   '**/eslint.config.*',
@@ -11,4 +11,4 @@ const toolingFiles = [
 
 const node = ['./lib/**'];
 
-export default configArgyle({ node, tooling: toolingFiles });
+export default base({ node, tooling: toolingFiles });
