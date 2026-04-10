@@ -17,6 +17,16 @@
     "https://nodejs.org/docs/": true
   },
 
+  "prettier.enable": true,
+  "prettier.useEditorConfig": false,
+
+  "eslint.enable": true,
+  "eslint.format.enable": true,
+  "eslint.runtime": "node",
+
+  "cSpell.language": "en",
+  "cSpell.words": ["browserslistrc", "nolyfill", "sonarjs", "uncategorized"],
+
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -37,15 +47,5 @@
   },
   "[markdown]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-
-  "prettier.enable": true,
-  "prettier.useEditorConfig": false,
-
-  "eslint.enable": true,
-  "eslint.format.enable": true,
-  "eslint.runtime": "node",
-
-  "cSpell.language": "en",
-  "cSpell.words": ["browserslistrc", "nolyfill", "sonarjs", "uncategorized"]
+  }
 }
