@@ -13,6 +13,8 @@
   "js/ts.tsdk.path": "node_modules/typescript/lib",
   "js/ts.tsdk.promptToUseWorkspaceVersion": true,
 
+  // "git.branchProtection": ["master"],
+
   "json.schemaDownload.trustedDomains": {
     "https://nodejs.org/docs/": true
   },

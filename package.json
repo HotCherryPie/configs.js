@@ -1,4 +1,5 @@
 {
+  "//": "READ package.json.md BEFORE ANY CHANGES!",
   "name": "@my/configs.js",
   "private": true,
   "version": "0.0.0",
