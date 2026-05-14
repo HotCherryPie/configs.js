@@ -1,4 +1,6 @@
+# https://git-scm.com/docs/gitattributes
 # https://github.com/gitattributes/gitattributes
+# https://docs.gitlab.com/user/project/repository/files/git_attributes/
 # https://github.com/github-linguist/linguist/blob/main/lib/linguist/languages.yml
 
 # Space can be specified with `[[:space:]]`
