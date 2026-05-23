@@ -25,7 +25,6 @@
 
 #### Migrate to v10
 
-- `wait` https://github.com/eslint-community/eslint-plugin-n/issues/502
 - `wait` https://github.com/un-ts/eslint-plugin-import-x/issues/438
 
 ---
