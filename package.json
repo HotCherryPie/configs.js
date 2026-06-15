@@ -34,7 +34,7 @@
     "@:nolyfill": "npx nolyfill"
   },
   "devDependencies": {
-    "@types/node": "^24.12.4"
+    "@types/node": "^24.13.2"
   },
   "peerDependencies": {
     "@eslint/js": "~9.39.3",
@@ -45,11 +45,11 @@
     "eslint-plugin-n": "~18.0.1",
     "eslint-plugin-sonarjs": "~4.0.3",
     "eslint-plugin-unicorn": "~64.0.0",
-    "eslint-plugin-vue": "~10.9.1",
+    "eslint-plugin-vue": "~10.9.2",
     "globals": "~17.6.0",
-    "prettier": "~3.8.3",
+    "prettier": "~3.8.4",
     "typescript": "~6.0.3",
-    "typescript-eslint": "~8.60.0",
+    "typescript-eslint": "~8.61.0",
     "vue-eslint-parser": "~10.4.0"
   }
 }
