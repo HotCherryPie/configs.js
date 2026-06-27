@@ -23,12 +23,6 @@
 
 ### ESLint
 
-#### Migrate to v10
-
-- `wait` https://github.com/un-ts/eslint-plugin-import-x/issues/438
-
----
-
 - [`@cspell/eslint-plugin`](https://www.npmjs.com/package/@cspell/eslint-plugin)
 - [`eslint-plugin-de-morgan`](https://www.npmjs.com/package/eslint-plugin-de-morgan)
 - [`eslint-plugin-promise`](https://www.npmjs.com/package/eslint-plugin-promise)
