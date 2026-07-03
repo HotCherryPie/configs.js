@@ -1,9 +1,5 @@
 # TODO
 
-- TS config should use vue-parser to support vue components in ts files
-
----
-
 - [Use OXC version of prettier](https://prettier.io/blog/2025/06/23/3.6.0#javascript)
 - Make plugin dependencies optional.
   - `plugin.vue.js` uses ts parser.
@@ -42,3 +38,13 @@
 - Inspect [`@vue/eslint-config-typescript`](https://www.npmjs.com/package/@vue/eslint-config-typescript)
 - ? Specify `sourceType` & `ecmaVersion` only once in core config at the top.
 - Research a way to force component props to always be wrapped in `ReadonlyDeep`
+
+### TS+Vue Linting
+
+- Make new `lang.ts+vue.ts` config
+- TS config should use vue-parser to support vue components in ts files
+
+* [Official solution](https://github.com/vuejs/eslint-config-typescript/blob/b617ee646f84f75c9647291e0d89133987b7a9a2/src/internals.ts#L172)
+  - [`vue-eslint-parser` and `typescript-eslint` problems](https://github.com/vuejs/vue-eslint-parser/issues/104)
+* [`typescript-eslint-parser-for-extra-files`](https://github.com/ota-meshi/typescript-eslint-parser-for-extra-files)
+  - [`typescript-parser` is not changed in flat config](https://github.com/ota-meshi/typescript-eslint-parser-for-extra-files/issues/95)

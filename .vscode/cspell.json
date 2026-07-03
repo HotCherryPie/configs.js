@@ -1,0 +1,9 @@
+// https://github.com/streetsidesoftware/cspell/blob/main/packages/cspell-bundled-dicts/cspell-default.config.js
+// https://github.com/mdn/content/blob/main/.vscode/cspell.json
+
+{
+  "$schema": "https://raw.githubusercontent.com/streetsidesoftware/cspell/main/cspell.schema.json",
+
+  "language": "en-001",
+  "words": ["browserslistrc", "nolyfill", "sonarjs", "uncategorized"]
+}

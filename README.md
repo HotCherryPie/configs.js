@@ -28,5 +28,3 @@ Configs for JS ecosystem.
 * [**`typescript-eslint`**](https://www.npmjs.com/package/typescript-eslint)
   - [`@typescript-eslint/parser` / Project Service](https://typescript-eslint.io/packages/parser/#projectservice)
   - [List of overrode base `@eslint/js` rules](https://github.com/typescript-eslint/typescript-eslint/blob/main/packages/eslint-plugin/src/configs/eslint-recommended-raw.ts)
-* [**`typescript-eslint-parser-for-extra-files`** compatibility with flat config](https://github.com/ota-meshi/typescript-eslint-parser-for-extra-files/issues/95)
-* [**`vue-eslint-parser`** problems with `typescript-eslint`](https://github.com/vuejs/vue-eslint-parser/issues/104)

@@ -22,7 +22,8 @@
   // "git.branchProtection": ["master"],
 
   "json.schemaDownload.trustedDomains": {
-    "https://nodejs.org/docs/": true
+    "https://nodejs.org/docs/": true,
+    "https://raw.githubusercontent.com/streetsidesoftware/cspell/": true
   },
 
   "npm.scriptRunner": "npm",
@@ -33,9 +34,6 @@
   "eslint.enable": true,
   "eslint.format.enable": true,
   "eslint.runtime": "node",
-
-  "cSpell.language": "en-001",
-  "cSpell.words": ["browserslistrc", "nolyfill", "sonarjs", "uncategorized"],
 
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
