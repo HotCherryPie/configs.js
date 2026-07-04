@@ -1,1 +1,1 @@
-export { configArgyle as base } from '@my/configs.js/eslint/config.argyle.js';
+export { configArgyle as base } from '#lib/eslint/config.argyle.js';
