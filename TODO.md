@@ -17,6 +17,11 @@
 }
 ```
 
+### TypeScript
+
+- Migrate to `v7`
+  - ⏱️ [`vuejs/language-tools`](https://github.com/vuejs/language-tools/issues/5381)
+
 ### ESLint
 
 - [`@cspell/eslint-plugin`](https://www.npmjs.com/package/@cspell/eslint-plugin)
@@ -27,13 +32,11 @@
 
 * **`eslint-plugin-sonarjs`**
   - Consider dropping of `sonar/redundant-type-aliases`
-* **`eslint-plugin-vue`**
-  - Change default severity of `recommended` & `strongly-recommended` rulesets to `error`. It's just warnings right now
 * **`eslint-plugin-import-x`**
-  - Add `import/no-extraneous-dependencies`?
+  - Consider [`import/no-extraneous-dependencies`](https://github.com/un-ts/eslint-plugin-import-x/blob/master/docs/rules/no-extraneous-dependencies.md)
+  - Consider [`import/no-cycle`](https://github.com/un-ts/eslint-plugin-import-x/blob/master/docs/rules/no-cycle.md)
   - Consider specifying of [new resolver](https://github.com/un-ts/eslint-plugin-import-x/releases/tag/v4.6.0)
   - Consider [`@helljs/eslint-import-resolver-x`](https://www.npmjs.com/package/@helljs/eslint-import-resolver-x)
-  - Consider [`import/no-cycle`](https://github.com/un-ts/eslint-plugin-import-x/blob/master/docs/rules/no-cycle.md)
 
 - Inspect [`@vue/eslint-config-typescript`](https://www.npmjs.com/package/@vue/eslint-config-typescript)
 - ? Specify `sourceType` & `ecmaVersion` only once in core config at the top.
