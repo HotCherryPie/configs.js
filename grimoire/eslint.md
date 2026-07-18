@@ -16,8 +16,8 @@ Plugins may provide processors. Processors can extract JavaScript code from othe
 
 #### Examples
 
-- [`eslint-plugin-vue`](https://github.com/vuejs/eslint-plugin-vue/blob/68da3d8957341418d8f39ebc32d9e06791f5e869/lib/plugin.ts#L520)
 - [`@eslint/markdown`](https://github.com/eslint/markdown/blob/f103b49f5f148252c7cfce903abe27127d846ac9/src/index.js#L59)
+- [`eslint-plugin-vue`](https://github.com/vuejs/eslint-plugin-vue/blob/68da3d8957341418d8f39ebc32d9e06791f5e869/lib/plugin.ts#L520)
 
 ### `language`
 
@@ -30,3 +30,4 @@ Plugins may provide languages. Languages allow ESLint to lint programming langua
 - [`@eslint/json`](https://github.com/eslint/json/blob/2c5a2d64c03da474f6ec4fe6aca678559c07d91d/src/index.js#L25)
 - [`@eslint/css`](https://github.com/eslint/css/blob/ceebaa5bce8cc41e0266a3642dd343b27b38383c/src/index.js#L24)
 - [`@eslint/markdown`](https://github.com/eslint/markdown/blob/f103b49f5f148252c7cfce903abe27127d846ac9/src/index.js#L61)
+- [`@html-eslint/eslint-plugin`](https://github.com/yeonjuan/html-eslint/blob/d0babaf320a0d5c3b72f6d8c7bf49b2841a0b84f/packages/eslint-plugin/lib/index.js#L17)
