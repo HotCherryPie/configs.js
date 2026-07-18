@@ -5,6 +5,7 @@ Configs for JS ecosystem.
 #### References
 
 - [`sxzz/eslint-config`](https://github.com/sxzz/eslint-config)
+- [`antfu/eslint-config`](https://github.com/antfu/eslint-config)
 
 ## About
 
