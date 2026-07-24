@@ -34,6 +34,9 @@
   "eslint.enable": true,
   "eslint.format.enable": true,
   "eslint.runtime": "node",
+  "eslint.options": {
+    "flags": ["unstable_native_nodejs_ts_config"]
+  },
 
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
