@@ -3,6 +3,6 @@
   "permission": {
     "permission": true,
     "allow-net": false,
-    "allow-fs-read": ["./*"]
+    "allow-fs-read": ["."]
   }
 }
