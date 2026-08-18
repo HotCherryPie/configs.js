@@ -1,8 +1,6 @@
 # TODO
 
 - [Use OXC version of prettier](https://prettier.io/blog/2025/06/23/3.6.0#javascript)
-- Make plugin dependencies optional.
-  - `plugin.vue.js` uses ts parser.
 - Consider [ESlint Multithread Linting](https://eslint.org/blog/2025/08/multithread-linting/)
 
 ```jsonc
