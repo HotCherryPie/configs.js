@@ -28,6 +28,10 @@
 - [`eslint-plugin-risxss`](https://www.npmjs.com/package/eslint-plugin-risxss)
 - [`eslint-plugin-security`](https://www.npmjs.com/package/eslint-plugin-security)
 
+* **`eslint-plugin-unicorn`**
+  - Use [`unicorn/iteration-fallback-style`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/iteration-fallback-style.md)
+  - Use [`unicorn/prefer-explicit-viewport-units`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-explicit-viewport-units.md)
+  - Use [`unicorn/no-missing-local-resource`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-missing-local-resource.md)
 * **`eslint-plugin-sonarjs`**
   - Consider dropping of `sonar/redundant-type-aliases`
 * **`eslint-plugin-import-x`**
