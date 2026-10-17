@@ -32,30 +32,17 @@
   - Use [`unicorn/iteration-fallback-style`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/iteration-fallback-style.md)
   - Use [`unicorn/no-missing-local-resource`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-missing-local-resource.md)
 
-  #### CSS
-  - Use [`unicorn/prefer-explicit-viewport-units`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-explicit-viewport-units.md)
-  - [`unicorn/no-deprecated-css-features`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-deprecated-css-features.md)
-  - [`unicorn/no-unscoped-css-nesting-selector`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-unscoped-css-nesting-selector.md)
-  - [`unicorn/no-duplicate-css-selectors`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-duplicate-css-selectors.md)
-  - [`unicorn/no-unknown-pseudo-selectors`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-unknown-pseudo-selectors.md)
-  - [`unicorn/no-invalid-media-features`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-invalid-media-features.md)
-  - [`unicorn/no-unknown-css-annotations`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-unknown-css-annotations.md)
-  - [`unicorn/no-nesting-with-mixed-specificity`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-nesting-with-mixed-specificity.md)
-  - [`unicorn/prefer-media-feature-range-syntax`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-media-feature-range-syntax.md)
-  - [`unicorn/no-duplicate-font-family-names`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-duplicate-font-family-names.md)
-  - [`unicorn/no-redundant-nested-style-rules`](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-redundant-nested-style-rules.md)
-
-* **`eslint-plugin-sonarjs`**
+- **`eslint-plugin-sonarjs`**
   - Consider dropping of `sonar/redundant-type-aliases`
-* **`eslint-plugin-import-x`**
+- **`eslint-plugin-import-x`**
   - Consider [`import/no-extraneous-dependencies`](https://github.com/un-ts/eslint-plugin-import-x/blob/master/docs/rules/no-extraneous-dependencies.md)
   - Consider [`import/no-cycle`](https://github.com/un-ts/eslint-plugin-import-x/blob/master/docs/rules/no-cycle.md)
   - Consider specifying of [new resolver](https://github.com/un-ts/eslint-plugin-import-x/releases/tag/v4.6.0)
   - Consider [`@helljs/eslint-import-resolver-x`](https://www.npmjs.com/package/@helljs/eslint-import-resolver-x)
 
-- Inspect [`@vue/eslint-config-typescript`](https://www.npmjs.com/package/@vue/eslint-config-typescript)
-- ? Specify `sourceType` & `ecmaVersion` only once in core config at the top.
-- Research a way to force component props to always be wrapped in `ReadonlyDeep`
+* Inspect [`@vue/eslint-config-typescript`](https://www.npmjs.com/package/@vue/eslint-config-typescript)
+* ? Specify `sourceType` & `ecmaVersion` only once in core config at the top.
+* Research a way to force component props to always be wrapped in `ReadonlyDeep`
 
 ### TS+Vue Linting
 

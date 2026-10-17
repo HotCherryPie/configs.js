@@ -5,5 +5,11 @@
   "$schema": "https://raw.githubusercontent.com/streetsidesoftware/cspell/main/cspell.schema.json",
 
   "language": "en-001",
-  "words": ["browserslistrc", "nolyfill", "sonarjs", "uncategorized"]
+  "words": [
+    "browserslistrc",
+    "cssicorn",
+    "nolyfill",
+    "sonarjs",
+    "uncategorized"
+  ]
 }

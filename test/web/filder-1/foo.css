@@ -1,0 +1,17 @@
+@MEDIA (MIN-WIDTH: 40REM) {
+	button:HOVER::BEFORE {
+		COLOR: RGB(0 0 0 / 50%);
+		border: 1PX SOLID #ABCDEF;
+    transform: TRANSLATEY(0) translatex(0);
+	}
+}
+
+.x {}
+
+.c {
+	font-size: 10px !important;
+}
+
+.c{
+	width: 0px;
+}
