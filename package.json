@@ -27,10 +27,12 @@
     "lib"
   ],
   "imports": {
-    "#lib/*": "./lib/*"
+    "#lib/*": "./lib/*",
+    "#lib/utils": "./lib/utils/index.js"
   },
   "exports": {
-    "./*": "./lib/*"
+    "./*": "./lib/*",
+    "./utils": "./lib/utils/index.js"
   },
   "scripts": {
     "@:eslint-inspect": "eslint --inspect-config",
