@@ -1,0 +1,29 @@
+/* See: https://github.com/tsconfig/bases/blob/main/bases/node26.json */
+
+{
+  "$schema": "https://www.schemastore.org/tsconfig",
+  "compilerOptions": {
+    // See: https://github.com/microsoft/TypeScript/pull/60761
+    "module": "nodenext",
+    "moduleResolution": "nodenext",
+
+    // Since node@24+ support .ts files
+    "allowImportingTsExtensions": true,
+
+    // https://github.com/tsconfig/bases/pull/310
+    // https://github.com/tsconfig/bases/pull/343
+    // https://github.com/tsconfig/bases/pull/360
+    "lib": [
+      "es2025",
+      "ESNext.Array",
+      "ESNext.Collection",
+      "ESNext.Date",
+      "ESNext.Error",
+      "ESNext.Intl",
+      "ESNext.Iterator",
+      "ESNext.Promise",
+      "ESNext.Temporal"
+    ],
+    "types": ["node"]
+  }
+}

@@ -1,7 +1,7 @@
 /* See: https://github.com/tsconfig/bases/blob/main/bases/node22.json */
 
 {
-  "$schema": "https://json.schemastore.org/tsconfig",
+  "$schema": "https://www.schemastore.org/tsconfig",
   "compilerOptions": {
     // See: https://github.com/microsoft/TypeScript/pull/60761
     "module": "nodenext",
