@@ -1,0 +1,59 @@
+#
+# 96.11.26 / 82.2%
+#
+# Baseline
+#  getOrInsert()     145/26.2/144/26.0 https://caniuse.com/wf-getorinsert
+#  Iterator.concat() 146/26.4/147/26.0 https://caniuse.com/wf-iterator-concat
+#                    146/26.4/147/26.0
+#
+# Baseline Next
+#  `using`           134/????/141/20.4 https://caniuse.com/wf-explicit-resource-management
+#
+
+        [node]
+          Node >= 26
+
+         [web]
+        Chrome >= 146
+ ChromeAndroid >= 146
+       Android >= 146
+          Edge >= 146   # chromium 146
+         Opera >= 130   # chromium 147
+   OperaMobile >= 97    # chromium 146
+       Samsung >= 31    # chromium 148
+        Safari >= 26.4
+           iOS >= 26.4
+       Firefox >= 147
+FirefoxAndroid >= 147
+
+  [isomorphic]
+          Node >= 26
+        Chrome >= 146
+ ChromeAndroid >= 146
+       Android >= 146
+          Edge >= 146   # chromium 146
+         Opera >= 130   # chromium 147
+   OperaMobile >= 97    # chromium 146
+       Samsung >= 31    # chromium 148
+        Safari >= 26.4
+           iOS >= 26.4
+       Firefox >= 147
+FirefoxAndroid >= 147
+
+#
+# How to check Chromium versions:
+#
+#  Samsung Internet:
+#   See https://en.wikipedia.org/wiki/Samsung_Internet#Version_history
+#   See https://whatmyuseragent.com/browser/browser-samsung-browser/31
+#
+#  Opera Desktop:
+#   See https://en.wikipedia.org/wiki/History_of_the_Opera_web_browser#Blink_versions
+#   See https://whatmyuseragent.com/browser/browser-opera/130
+#
+#  Opera Mobile:
+#   See https://forums.opera.com/user/abitkulova/posts
+#   This user usually post release notes for Opera Mobile.
+#   You need to search for topic called something like
+#   "Opera for Android 83" and find Chromium version within it.
+#
