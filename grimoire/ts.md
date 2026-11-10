@@ -1,3 +1,7 @@
+# TypeScrip
+
+- [TSConfig Grimoire](https://github.com/bluwy/tsconfig-grimoire)
+
 ## Config
 
 - `moduleResolution`

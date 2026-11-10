@@ -1,6 +1,13 @@
-## Config options
+# ESLint
+
+## Config
+
+- [Configuration Files](https://eslint.org/docs/latest/use/configure/configuration-files)
 
 ### `files`
+
+- [Specify `files` and `ignores`](https://eslint.org/docs/latest/use/configure/configuration-files#specify-files-and-ignores)
+  > Patterns specified in files and ignores use [minimatch](https://www.npmjs.com/package/minimatch) syntax and are evaluated relative to the location of the eslint.config.js file.
 
 #### Virtual files
 
@@ -31,3 +38,9 @@ Plugins may provide languages. Languages allow ESLint to lint programming langua
 - [`@eslint/css`](https://github.com/eslint/css/blob/ceebaa5bce8cc41e0266a3642dd343b27b38383c/src/index.js#L24)
 - [`@eslint/markdown`](https://github.com/eslint/markdown/blob/f103b49f5f148252c7cfce903abe27127d846ac9/src/index.js#L61)
 - [`@html-eslint/eslint-plugin`](https://github.com/yeonjuan/html-eslint/blob/d0babaf320a0d5c3b72f6d8c7bf49b2841a0b84f/packages/eslint-plugin/lib/index.js#L17)
+
+## Plugins
+
+- [**`typescript-eslint`**](https://www.npmjs.com/package/typescript-eslint)
+  - [`@typescript-eslint/parser` / Project Service](https://typescript-eslint.io/packages/parser/#projectservice)
+  - [List of overrode base `@eslint/js` rules](https://github.com/typescript-eslint/typescript-eslint/blob/main/packages/eslint-plugin/src/configs/eslint-recommended-raw.ts)
