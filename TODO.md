@@ -1,19 +1,9 @@
 # TODO
 
+- [Use `@vitest/eslint-plugin`](https://www.npmjs.com/package/@vitest/eslint-plugin)
+- [Use `eslint-plugin-typefest`](https://www.npmjs.com/package/eslint-plugin-typefest)
 - [Use OXC version of prettier](https://prettier.io/blog/2025/06/23/3.6.0#javascript)
 - Consider [ESlint Multithread Linting](https://eslint.org/blog/2025/08/multithread-linting/)
-
-```jsonc
-{
-  "./**/*.js": {
-    "import": "./lib/**/*.js",
-
-    // Can be a problem when eslint plugins became optional
-    //  because of async imports. Or just use `require()`?
-    "module-sync": "./lib/**/*.js",
-  },
-}
-```
 
 ### TypeScript
 
